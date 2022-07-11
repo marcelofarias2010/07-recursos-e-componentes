@@ -6,13 +6,9 @@
     "Upload",
     "image thumb",
     "image crop",
-    "image cache",
-    "thumbnails jpg",
-    "thumbnails png",
-    "thumbnails webp",
-    "webp converter"
+    "image cache"
   ],
-  "homepage": "https://www.upinside.com.br",
+  "homepage": "http://www.upinside.com.br",
   "license": "MIT",
   "authors": [
     {
@@ -22,11 +18,8 @@
     }
   ],
   "require": {
-    "php": ">=7.2",
-    "ext-gd": "*",
-    "ext-mbstring": "*",
-    "ext-fileinfo": "*",
-    "rosell-dk/webp-convert": "2.5.0"
+    "php": "^7.2",
+    "ext-gd": "*"
   },
   "autoload": {
     "psr-4": {

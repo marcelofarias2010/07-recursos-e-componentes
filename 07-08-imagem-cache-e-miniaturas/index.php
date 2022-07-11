@@ -18,13 +18,13 @@ var_dump($t);
  */
 fullStackPHPClassSession("generate", __LINE__);
 
-echo "<img src='{$t->make("images/2022/07/imagem.jpg", 300)}' alt='' title=''/>";
-echo "<img src='{$t->make("images/2022/07/imagem.jpg", 180, 180)}' alt='' title=''/>";
+echo "<img src='{$t->make("images/2022/07/nome-do-arquivo.png", 300)}' alt='' title=''/>";
+echo "<img src='{$t->make("images/2022/07/nome-do-arquivo.png", 180, 180)}' alt='' title=''/>";
 
 var_dump($t->make("image.jpg", 100));
 
-echo "<img src='{$t->make("images/2022/07/imagem.png", 300)}' alt='' title=''/>";
-echo "<img src='{$t->make("images/2022/07/imagem.png", 180, 180)}' alt='' title=''/>";
+echo "<img src='{$t->make("images/2022/07/nome-do-arquivo.png", 300)}' alt='' title=''/>";
+echo "<img src='{$t->make("images/2022/07/nome-do-arquivo.png", 180, 180)}' alt='' title=''/>";
 
 //$t->flush("images/2018/09/imagem.png");
 //$t->flush();

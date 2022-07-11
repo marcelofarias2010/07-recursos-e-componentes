@@ -1,5 +1,5 @@
 <?php
-require __DIR__ . '/../../fullstackphp/fsphp.php';
+require __DIR__ . '/../fullstackphp/fsphp.php';
 fullStackPHPClassName("07.09 - Fornecedor de otimização");
 
 require __DIR__ . "/../vendor/autoload.php";
